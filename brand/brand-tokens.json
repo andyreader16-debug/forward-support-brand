@@ -1,0 +1,316 @@
+{
+  "$meta": {
+    "name": "Forward Support Care Ltd brand tokens",
+    "version": "1.0",
+    "source": "Brand Book v1.0 (28 April 2026) Section 03, 04, 09, 11",
+    "lastUpdated": "2026-06-03",
+    "lockedDecisions": "See Brand_Decisions_Resolved.md",
+    "rules": "See Brand_Lock.md",
+    "humanReference": "Brand_Book_v1.pdf"
+  },
+  "colours": {
+    "blue": {
+      "hex": "#004DB5",
+      "rgb": [
+        0,
+        77,
+        181
+      ],
+      "cmyk": [
+        100,
+        57,
+        0,
+        29
+      ],
+      "use": "Primary brand colour. Headers, links, key UI elements, logo."
+    },
+    "orange": {
+      "hex": "#E8720A",
+      "rgb": [
+        232,
+        114,
+        10
+      ],
+      "cmyk": [
+        0,
+        51,
+        96,
+        9
+      ],
+      "use": "Accent. Top stripe on documents, CTAs, emphasis, negative callouts, warnings, gates."
+    },
+    "cyan": {
+      "hex": "#00B5CF",
+      "rgb": [
+        0,
+        181,
+        207
+      ],
+      "cmyk": [
+        100,
+        13,
+        0,
+        19
+      ],
+      "use": "Secondary accent. Keyword highlights in titles, section eyebrows, tagline, positive callouts."
+    },
+    "grey": {
+      "hex": "#706F6F",
+      "rgb": [
+        112,
+        111,
+        111
+      ],
+      "cmyk": [
+        0,
+        1,
+        1,
+        56
+      ],
+      "use": "Body text, captions, subtle elements, footer text."
+    },
+    "dark": {
+      "hex": "#060D22",
+      "rgb": [
+        6,
+        13,
+        34
+      ],
+      "cmyk": [
+        82,
+        62,
+        0,
+        87
+      ],
+      "use": "Dark backgrounds (covers, dividers, website hero), primary text on white."
+    },
+    "tint": {
+      "hex": "#F5F7FB",
+      "rgb": [
+        245,
+        247,
+        251
+      ],
+      "cmyk": [
+        2,
+        2,
+        0,
+        2
+      ],
+      "use": "Light background panels, alternating table rows, subtle contrast."
+    },
+    "hairline": {
+      "hex": "#BFBFBF",
+      "rgb": [
+        191,
+        191,
+        191
+      ],
+      "cmyk": [
+        0,
+        0,
+        0,
+        25
+      ],
+      "use": "Subtle dividers, checklist box outlines, table rules."
+    },
+    "orangeTint": {
+      "hex": "#FDEFE2",
+      "use": "Background of orange callouts (negatives, warnings, gates)."
+    },
+    "blueTint": {
+      "hex": "#EDF2FB",
+      "use": "Background of blue callouts (context, reference notes)."
+    },
+    "cyanTint": {
+      "hex": "#E5F7FA",
+      "use": "Background of cyan callouts (positives)."
+    }
+  },
+  "typography": {
+    "fonts": {
+      "website": {
+        "primary": "Figtree",
+        "fallback": "system sans-serif",
+        "note": "Google Font, loaded via Next.js"
+      },
+      "printDocuments": {
+        "primary": "Effra",
+        "fallback": "Inter",
+        "note": "Effra is commercial. Inter is the closest free alternative."
+      },
+      "generatedPdfs": {
+        "primary": "Helvetica",
+        "fallback": "Arial",
+        "note": "Universally available, guaranteed to render."
+      },
+      "emailSignatures": {
+        "primary": "Arial",
+        "fallback": "Helvetica",
+        "note": "Safe across all email clients."
+      },
+      "presentations": {
+        "primary": "Inter",
+        "fallback": "Arial",
+        "note": "For internal or external slide decks."
+      }
+    },
+    "scale": {
+      "pageTitle": {
+        "sizePt": 28,
+        "weight": "Bold",
+        "colour": "dark or white"
+      },
+      "sectionHeading": {
+        "sizePt": 18,
+        "weight": "Bold",
+        "colour": "dark"
+      },
+      "subheading": {
+        "sizePt": 14,
+        "weight": "Bold",
+        "colour": "dark"
+      },
+      "body": {
+        "sizePt": 10.5,
+        "weight": "Regular",
+        "colour": "dark or grey",
+        "leading": "140-150% of font size"
+      },
+      "caption": {
+        "sizePt": 8,
+        "weight": "Regular",
+        "colour": "grey"
+      },
+      "eyebrow": {
+        "sizePt": 10,
+        "weight": "Regular",
+        "colour": "cyan (default) or orange (for negatives/warnings/gates)",
+        "transform": "uppercase",
+        "letterspacing": "1.6pt",
+        "accent": "small vertical cyan bar in front (or orange when colour is orange)"
+      }
+    },
+    "rules": [
+      "Never use more than two font weights on a single page (Regular and Bold).",
+      "Never use decorative, script, or novelty fonts anywhere.",
+      "Body text line height: 140-150% of font size.",
+      "No em dashes. House style. Use commas, full stops, or sentence breaks."
+    ]
+  },
+  "logo": {
+    "primaryBlue": "logos/logo-blue.jpg",
+    "reversedWhite": "OUTSTANDING - see Brand_Lock.md and Brand Book Section 14",
+    "minimumSizePrint": "25mm wide",
+    "minimumSizeScreen": "100px wide",
+    "clearSpace": "Equal to the height of the letter F in FORWARD",
+    "rules": [
+      "Always reproduce from approved artwork files.",
+      "Never recreate, redraw, or synthesise the logo in any form (no SVG, no code, no ASCII, no JPG inversion, no AI-generated).",
+      "Never change logo colours.",
+      "Never stretch, distort, or rotate.",
+      "Never add effects (shadows, gradients, outlines).",
+      "Never place on busy or patterned backgrounds.",
+      "Never crop or partially obscure."
+    ]
+  },
+  "page": {
+    "size": "A4",
+    "widthMm": 210,
+    "heightMm": 297,
+    "marginsMm": {
+      "left": 20,
+      "right": 20,
+      "top": 20,
+      "bottom": 28
+    }
+  },
+  "documentChrome": {
+    "cover": {
+      "spec": "Brand Book Section 11",
+      "ground": "dark (#060D22)",
+      "topStripe": "orange 8mm",
+      "logo": "white-on-dark, top-left (BLOCKED on white logo asset)",
+      "eyebrow": "cyan, uppercase, letterspaced, with vertical cyan bar accent",
+      "title": "large white, with one keyword in cyan",
+      "description": "italic muted white",
+      "taglineBottomLeft": "cyan italic",
+      "contactBlockBottomRight": "white",
+      "status": "BLOCKED on white logo asset"
+    },
+    "divider": {
+      "spec": "Brand Book Section 11",
+      "ground": "dark (#060D22)",
+      "topStripe": "orange 8mm",
+      "logo": "white-on-dark, small, top-left (BLOCKED on white logo asset)",
+      "eyebrow": "cyan, with vertical cyan bar accent (e.g. 'SECTION 01')",
+      "title": "large white, with one keyword in cyan",
+      "description": "italic muted white",
+      "contactBlock": "none",
+      "status": "BLOCKED on white logo asset"
+    },
+    "contentPage": {
+      "spec": "Brand Book Section 11 written + audience PDFs as built (reconciled)",
+      "ground": "white",
+      "topChrome": "none. No logo at top. No header rule. Clean content from the top margin.",
+      "footer": {
+        "left": "Forward Support Care Ltd \u00b7 Catherine House, Taunton (8pt grey)",
+        "right": "Page X of Y (8pt grey)"
+      },
+      "status": "READY TO BUILD"
+    }
+  },
+  "callouts": {
+    "positive": {
+      "accent": "cyan",
+      "background": "cyanTint",
+      "use": "context, reference notes, positives, 'what we do'"
+    },
+    "negative": {
+      "accent": "orange",
+      "background": "orangeTint",
+      "use": "warnings, gates, required actions, 'what we don't do'"
+    },
+    "info": {
+      "accent": "blue",
+      "background": "blueTint",
+      "use": "general informational notes"
+    },
+    "leftBar": "3pt in accent colour",
+    "corners": "subtly rounded"
+  },
+  "documentNumbering": {
+    "spec": "Brand Book Section 11",
+    "system": "Collection-based, A through H",
+    "format": "Collection.Number (e.g. A.01, B.03, C.15)",
+    "appearsIn": "Document reference (header), not in page chrome"
+  },
+  "stationery": {
+    "spec": "Brand Book Section 09",
+    "letterhead": {
+      "footerRule": "orange (per Section 09 text; see Brand_Decisions_Resolved.md)"
+    },
+    "businessCardBack": {
+      "ground": "dark navy, white logo centred, cyan tagline (BLOCKED on white logo asset)"
+    },
+    "memoTemplate": {
+      "label": "MEMORANDUM in blue letterspaced, internal use"
+    },
+    "complimentSlip": {
+      "size": "210x99mm",
+      "label": "With compliments in blue"
+    }
+  },
+  "outstanding": {
+    "whiteOnDarkLogo": {
+      "status": "outstanding since Brand Book v1.0 (28 April 2026)",
+      "source": "Brand Book Section 14",
+      "blocks": [
+        "covers",
+        "section dividers",
+        "business card backs",
+        "dark hero website surfaces"
+      ]
+    }
+  }
+}
