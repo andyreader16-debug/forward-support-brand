@@ -1,9 +1,9 @@
 {
   "$meta": {
     "name": "Forward Support Care Ltd brand tokens",
-    "version": "1.0",
+    "version": "1.1",
     "source": "Brand Book v1.0 (28 April 2026) Section 03, 04, 09, 11",
-    "lastUpdated": "2026-06-03",
+    "lastUpdated": "2026-10-23",
     "lockedDecisions": "See Brand_Decisions_Resolved.md",
     "rules": "See Brand_Lock.md",
     "humanReference": "Brand_Book_v1.pdf"
@@ -37,7 +37,7 @@
         96,
         9
       ],
-      "use": "Accent. Top stripe on documents, CTAs, emphasis, negative callouts, warnings, gates."
+      "use": "Accent. Top stripe on documents, content page eyebrows, CTAs, emphasis, negative callouts, warnings, gates."
     },
     "cyan": {
       "hex": "#00B5CF",
@@ -52,7 +52,7 @@
         0,
         19
       ],
-      "use": "Secondary accent. Keyword highlights in titles, section eyebrows, tagline, positive callouts."
+      "use": "Secondary accent. Keyword highlights in titles, cover and divider eyebrows, tagline, positive callouts."
     },
     "grey": {
       "hex": "#706F6F",
@@ -185,10 +185,10 @@
       "eyebrow": {
         "sizePt": 10,
         "weight": "Regular",
-        "colour": "cyan (default) or orange (for negatives/warnings/gates)",
+        "colour": "orange on white content pages, cyan on dark covers and dividers",
         "transform": "uppercase",
         "letterspacing": "1.6pt",
-        "accent": "small vertical cyan bar in front (or orange when colour is orange)"
+        "accent": "small vertical bar in front, same colour as the eyebrow"
       }
     },
     "rules": [
@@ -254,10 +254,11 @@
       "ground": "white",
       "topChrome": "none. No logo at top. No header rule. Clean content from the top margin.",
       "footer": {
-        "left": "Forward Support Care Ltd \u00b7 Catherine House, Taunton (8pt grey)",
+        "left": "Forward Support Care Ltd · Catherine House, Taunton (8pt grey)",
         "right": "Page X of Y (8pt grey)"
       },
-      "status": "READY TO BUILD"
+      "status": "READY TO BUILD",
+      "eyebrow": "orange, uppercase, letterspaced, with vertical orange bar accent"
     }
   },
   "callouts": {

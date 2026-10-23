@@ -1,4 +1,4 @@
-# Forward Support Brand Decisions Resolved v1.0
+# Forward Support Brand Decisions Resolved v1.1
 
 The Brand Book v1.0 contains a small number of internal contradictions and ambiguities. This document resolves each one explicitly so no future chat has to make a judgment call. If you spot a contradiction not listed here, add it here with the resolution rather than making the call yourself.
 
@@ -8,7 +8,7 @@ The Brand Book v1.0 contains a small number of internal contradictions and ambig
 
 **Brand Book Section 04 text:** says "Cyan or Orange" (both allowed).
 
-**Resolved:** CYAN is the default. Orange is reserved for negatives, warnings, gates, and "do not" callouts. This matches the existing audience PDFs (Placement Pack, Family Guide) and the Brand Book's own internal pages.
+**Resolved (revised 23 October 2026):** ORANGE with a small vertical orange bar on white content pages. CYAN with a cyan bar on dark covers and dividers. The earlier resolution chose cyan on the basis that it matched the Placement Pack and Family Guide. A rendered check on 23 October 2026 showed both reference PDFs use orange eyebrows, so that basis was wrong for content pages. The Placement Pack cover uses a cyan eyebrow on the dark ground, which stays. Orange is now the rule, matching the reference PDFs and every document built since. Warnings and negatives are marked by an orange tinted callout box, not by eyebrow colour.
 
 ### 2. Title keyword accent: cyan or blue?
 
