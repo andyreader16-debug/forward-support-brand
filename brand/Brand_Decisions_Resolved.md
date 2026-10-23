@@ -8,7 +8,9 @@ The Brand Book v1.0 contains a small number of internal contradictions and ambig
 
 **Brand Book Section 04 text:** says "Cyan or Orange" (both allowed).
 
-**Resolved (revised 23 October 2026):** ORANGE with a small vertical orange bar on white content pages. CYAN with a cyan bar on dark covers and dividers. The earlier resolution chose cyan on the basis that it matched the Placement Pack and Family Guide. A rendered check on 23 October 2026 showed both reference PDFs use orange eyebrows, so that basis was wrong for content pages. The Placement Pack cover uses a cyan eyebrow on the dark ground, which stays. Orange is now the rule, matching the reference PDFs and every document built since. Warnings and negatives are marked by an orange tinted callout box, not by eyebrow colour.
+**Resolved:** CYAN is the default. Orange is reserved for negatives, warnings, gates, and "do not" callouts.
+
+**Rechecked 23 October 2026:** the April 2026 reference PDFs used orange eyebrows on content pages. The live v2 Placement Pack and Family Guide, and every SOP build script, use cyan. Cyan confirmed. The April PDFs were moved to /reference/archive/ and replaced with the live v2 versions so the references match this rule.
 
 ### 2. Title keyword accent: cyan or blue?
 

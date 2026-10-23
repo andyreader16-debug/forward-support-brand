@@ -37,7 +37,7 @@
         96,
         9
       ],
-      "use": "Accent. Top stripe on documents, content page eyebrows, CTAs, emphasis, negative callouts, warnings, gates."
+      "use": "Accent. Top stripe on documents, CTAs, emphasis, negative callouts, warnings, gates."
     },
     "cyan": {
       "hex": "#00B5CF",
@@ -52,7 +52,7 @@
         0,
         19
       ],
-      "use": "Secondary accent. Keyword highlights in titles, cover and divider eyebrows, tagline, positive callouts."
+      "use": "Secondary accent. Keyword highlights in titles, section eyebrows, tagline, positive callouts."
     },
     "grey": {
       "hex": "#706F6F",
@@ -185,10 +185,10 @@
       "eyebrow": {
         "sizePt": 10,
         "weight": "Regular",
-        "colour": "orange on white content pages, cyan on dark covers and dividers",
+        "colour": "cyan (default) or orange (for negatives/warnings/gates)",
         "transform": "uppercase",
         "letterspacing": "1.6pt",
-        "accent": "small vertical bar in front, same colour as the eyebrow"
+        "accent": "small vertical cyan bar in front (or orange when colour is orange)"
       }
     },
     "rules": [
@@ -257,8 +257,7 @@
         "left": "Forward Support Care Ltd · Catherine House, Taunton (8pt grey)",
         "right": "Page X of Y (8pt grey)"
       },
-      "status": "READY TO BUILD",
-      "eyebrow": "orange, uppercase, letterspaced, with vertical orange bar accent"
+      "status": "READY TO BUILD"
     }
   },
   "callouts": {
