@@ -1,7 +1,7 @@
 {
   "$meta": {
     "name": "Forward Support Care Ltd brand tokens",
-    "version": "1.1",
+    "version": "1.2",
     "source": "Brand Book v1.0 (28 April 2026) Section 03, 04, 09, 11",
     "lastUpdated": "2026-10-23",
     "lockedDecisions": "See Brand_Decisions_Resolved.md",
@@ -153,6 +153,16 @@
         "primary": "Inter",
         "fallback": "Arial",
         "note": "For internal or external slide decks."
+      },
+      "handwritten": {
+        "primary": "Caveat",
+        "weights": [
+          500,
+          700
+        ],
+        "fallback": "cursive",
+        "source": "Google Fonts (free, OFL). https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap",
+        "note": "Accent only. See handwrittenRules."
       }
     },
     "scale": {
@@ -193,9 +203,17 @@
     },
     "rules": [
       "Never use more than two font weights on a single page (Regular and Bold).",
-      "Never use decorative, script, or novelty fonts anywhere.",
+      "Never use decorative, script, or novelty fonts, except Caveat as a sparing handwritten accent (see handwrittenRules).",
       "Body text line height: 140-150% of font size.",
       "No em dashes. House style. Use commas, full stops, or sentence breaks."
+    ],
+    "handwrittenRules": [
+      "Use for a short greeting or sign-off (for example 'Hi Sarah', 'See you soon') and for one short aside of a sentence or less under a section.",
+      "At most one aside per page or slide. Never for headings, body text, tables, lists, facts, figures, names of policies, or the CQC wording.",
+      "Allowed on: family, commissioner and social worker documents, letters, newsletters, website, recruitment, presentations.",
+      "Not allowed on: SOPs, forms, governance records, policies, CQC or other regulatory documents.",
+      "Colour: cyan or white on dark grounds, blue or cyan on white. Never orange.",
+      "Reference: the 'Hi Sarah' QA pack, October 2026."
     ]
   },
   "logo": {

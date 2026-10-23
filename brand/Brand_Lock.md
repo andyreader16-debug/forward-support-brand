@@ -1,4 +1,4 @@
-# Forward Support Brand Lock v2.1
+# Forward Support Brand Lock v2.2
 
 The Brand Lock is the enforced summary of Forward Support brand rules. Every chat in this project reads this before any visual or document work. The Brand Book PDF and brand-tokens.json in the `/brand/` folder of the GitHub repo are the full authoritative source. If anything in this Lock conflicts with the Brand Book, the Brand Book wins and this Lock gets updated.
 
@@ -35,6 +35,7 @@ If you have not done these three things, you are not allowed to produce a visual
 - Cover and divider: dark navy ground with white logo. BLOCKED on white logo asset.
 - Content page: no logo at top, no header rule, footer = company line left + "Page X of Y" right.
 - Callouts: cyan for positives, orange for negatives, subtly rounded.
+- Handwritten accent: Caveat (500/700), used sparingly for a greeting, a sign-off or one short aside per page. Never on SOPs, forms, governance or regulatory documents, and never for headings, body, tables or facts. Full rules in brand-tokens.json handwrittenRules.
 - No em dashes. Ever.
 
 ## Absolute don'ts
@@ -65,3 +66,4 @@ If you cannot meet the bar above, say so plainly and stop. Do not ship a lesser 
 ## Version history
 
 - v2.1, 23 October 2026: eyebrow rule confirmed as cyan after checking the live v2 PDFs and SOPs. Old April reference PDFs (orange eyebrows) moved to /reference/archive/ and replaced with the live v2 versions. Source of truth links corrected to this repo. Conflict rule added.
+- v2.2, 23 October 2026: Caveat added as a sparing handwritten accent, from the 'Hi Sarah' QA pack.

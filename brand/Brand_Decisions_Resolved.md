@@ -50,6 +50,12 @@ The Brand Book v1.0 contains a small number of internal contradictions and ambig
 
 **Resolved:** "Page X of Y" right-aligned, per the existing audience PDFs.
 
+### 7. Handwritten font: allowed or not?
+
+**Context:** the Brand Lock says no decorative or script fonts. The 'Hi Sarah' QA pack (October 2026) used Caveat for a greeting, a sign-off and short asides, and Andy liked how it took the corporate edge off.
+
+**Resolved 23 October 2026:** Caveat is allowed as a sparing accent only, as set out in brand-tokens.json handwrittenRules. It is not a body or heading font. The general ban on decorative fonts still applies to everything else.
+
 ## Outstanding (decisions blocked on missing assets)
 
 ### White-on-dark logo file
