@@ -88,9 +88,33 @@ The Brand Book v1.0 contains a small number of internal contradictions and ambig
 
 **Resolved 27 October 2026 (Andy), after a mock-up comparison:** every table line, box outline and write-in rule on a form is Grey #706F6F at 0.75pt or heavier. Blue #004DB5 stays allowed for an outer frame. Row striping stays Tint #F5F7FB. Live forms move to v1.1 with this change only. Staff still print from the shared drive rather than photocopying where they can (E.01), because a photocopy can be an old version.
 
+### 13. Form eyebrows: how they are drawn
+
+**Context:** a test form built in a new chat on 27 October 2026 set its eyebrows in bold with a typed "|" in front. The live cleaning forms did the same. The rule said "cyan with a bar" but not how it is made.
+
+**Resolved 27 October 2026 (Andy):** an eyebrow is regular weight (never bold), uppercase, with a small drawn cyan bar in front, never a typed "|". Letter spacing 1.6pt where the tool allows it (PDF builds). Google Docs cannot letter-space, so Docs forms go without it. Live forms that break this are corrected at their next version, not reprinted.
+
+### 14. Forms have no orange strip across the top
+
+**Context:** the cleaning forms and the CO log carried an orange strip across the top, like the letterhead. The 20 Google Doc forms did not. One had to give way.
+
+**Resolved 27 October 2026 (Andy):** forms have no strip. It uses toner and it is a stationery look. The letterhead and compliment slip keep their strip. The live cleaning forms and CO log lose it at their next version, not as a reprint.
+
+### 15. No resident data on a blank form
+
+**Context:** the test fire drill log printed the current residents' initials as column headings.
+
+**Resolved 27 October 2026 (Andy):** a blank form never carries resident names or initials. Leave the space blank for staff to fill in. A form with residents printed on it goes out of date the day someone moves in or out.
+
+### 16. QCS codes on forms
+
+**Context:** the test form named "QCS MR04". Nobody could say where the code came from. The project rule is never to invent a QCS code.
+
+**Resolved 27 October 2026 (Andy):** a QCS code goes on a form only if it has been read in QCS itself. Checked codes are listed in scripts/qcs_verified.txt in forward-support-internal, with where each was checked. brand_check.py flags any code not on that list. If a code cannot be checked, leave it off and tell Andy.
+
 ### How these are enforced
 
-Every form is checked with `scripts/brand_check.py` in forward-support-internal before it is shown to anyone or moved into "02 Forms in use". It flags lines lighter than Grey #706F6F or thinner than 0.75pt, colours that are not in brand-tokens.json, orange eyebrows, blue title keywords and em dashes. A form that fails is not finished.
+Every form is checked with `scripts/brand_check.py` in forward-support-internal before it is shown to anyone or moved into "02 Forms in use". It flags lines lighter than Grey #706F6F or thinner than 0.75pt, colours that are not in brand-tokens.json, orange, bold or typed-bar eyebrows, blue title keywords, em dashes, an orange top strip, a missing logo, a footer without a form code, version and Page X of Y, and any QCS code not yet checked. It cannot judge wording, layout or resident data, so every page is still looked at. A form that fails is not finished.
 
 ## Outstanding (decisions blocked on missing assets)
 

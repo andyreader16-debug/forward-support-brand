@@ -1,7 +1,7 @@
 {
   "$meta": {
     "name": "Forward Support Care Ltd brand tokens",
-    "version": "1.3",
+    "version": "1.4",
     "source": "Brand Book v1.0 (28 April 2026) Section 03, 04, 09, 11",
     "lastUpdated": "2026-10-27",
     "lockedDecisions": "See Brand_Decisions_Resolved.md",
@@ -279,9 +279,9 @@
     }
   },
   "forms": {
-    "spec": "Brand_Decisions_Resolved.md decisions 8 to 12 (27 October 2026)",
+    "spec": "Brand_Decisions_Resolved.md decisions 8 to 16 (27 October 2026)",
     "logo": "blue logo top left on standalone forms; eyebrow and title below it",
-    "eyebrow": "cyan, uppercase, with vertical cyan bar. Never orange.",
+    "eyebrow": "cyan, uppercase, regular weight (never bold), with a small drawn cyan bar in front, never a typed \"|\". Letter spacing 1.6pt where the tool allows it. Never orange.",
     "titleKeyword": "cyan",
     "tableLines": {
       "colour": "#706F6F",
@@ -293,7 +293,11 @@
     "labelCellFill": "Tint #F5F7FB or blueTint #EDF2FB only",
     "warnings": "orange text on orangeTint #FDEFE2, for warnings, gates and the negative half of a pair only",
     "footer": "company line left, form code and name, Page X of Y right (8pt grey)",
-    "check": "run scripts/brand_check.py in forward-support-internal before any form is presented or moved to 02 Forms in use"
+    "check": "run scripts/brand_check.py in forward-support-internal before any form is presented or moved to 02 Forms in use",
+    "topStrip": "none. Forms have no orange strip; letterhead and compliment slip keep theirs (decision 14)",
+    "residentData": "never print resident names or initials on a blank form; leave space to fill in (decision 15)",
+    "qcsCodes": "only codes read in QCS itself and listed in scripts/qcs_verified.txt in forward-support-internal; otherwise leave off (decision 16)",
+    "reference": "approved forms in brand/reference/forms/ once signed off"
   },
   "callouts": {
     "positive": {
