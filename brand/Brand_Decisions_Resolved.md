@@ -56,6 +56,42 @@ The Brand Book v1.0 contains a small number of internal contradictions and ambig
 
 **Resolved 23 October 2026:** Caveat is allowed as a sparing accent only, as set out in brand-tokens.json handwrittenRules. It is not a body or heading font. The general ban on decorative fonts still applies to everything else.
 
+### 8. Standalone forms: logo or no logo?
+
+**Context:** content pages carry no logo at the top (decision 5). A standalone form, such as a cleaning sheet or a log on a clipboard, has no cover, so without a logo nothing on the page says whose form it is.
+
+**Resolved 27 October 2026 (Andy):** standalone forms carry the blue logo top left, with the eyebrow and title below it. Multi-page documents keep decision 5.
+
+### 9. Form row striping: which colour?
+
+**Context:** Andy asked whether the striped rows on forms should be darker so they show up on the office printer.
+
+**Resolved 27 October 2026 (Andy), after a print test:** alternating rows stay Tint #F5F7FB. The test sheet printed clearly, so no change.
+
+### 10. Form table lines: which colour?
+
+**Context:** Ali printed a form with no lines on it. The 04 draft forms had been built with #DCE2EC for table lines, which is not a brand colour and is too pale for the office printer.
+
+**Resolved 27 October 2026 (Andy):** every table line, box outline and write-in rule on a form is Hairline #BFBFBF at 0.75pt or heavier. Nothing lighter than Hairline. Blue #004DB5 is allowed for an outer frame. All drafts in 04 were corrected the same day.
+
+**Superseded the same day by decision 12.**
+
+### 11. Form eyebrows: cyan, as everywhere else
+
+**Context:** several 04 draft forms were built with orange eyebrows and orange section labels, against decision 1.
+
+**Resolved 27 October 2026 (Andy):** form eyebrows and section labels are cyan with the cyan bar, the same as every other document. Orange stays for warnings, gates and the negative half of a pair (for example the "Needs picking up" table header on D.01). All drafts in 04 were corrected the same day.
+
+### 12. Form lines: dark grey, so they survive photocopying
+
+**Context:** after decision 10, forms printed from a computer or phone showed their Hairline #BFBFBF lines, but photocopies of them came out with the lines almost gone. Staff will photocopy a form when the folder runs low, however the rule is written.
+
+**Resolved 27 October 2026 (Andy), after a mock-up comparison:** every table line, box outline and write-in rule on a form is Grey #706F6F at 0.75pt or heavier. Blue #004DB5 stays allowed for an outer frame. Row striping stays Tint #F5F7FB. Live forms move to v1.1 with this change only. Staff still print from the shared drive rather than photocopying where they can (E.01), because a photocopy can be an old version.
+
+### How these are enforced
+
+Every form is checked with `scripts/brand_check.py` in forward-support-internal before it is shown to anyone or moved into "02 Forms in use". It flags lines lighter than Grey #706F6F or thinner than 0.75pt, colours that are not in brand-tokens.json, orange eyebrows, blue title keywords and em dashes. A form that fails is not finished.
+
 ## Outstanding (decisions blocked on missing assets)
 
 ### White-on-dark logo file
