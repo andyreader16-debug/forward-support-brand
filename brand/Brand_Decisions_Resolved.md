@@ -112,6 +112,12 @@ The Brand Book v1.0 contains a small number of internal contradictions and ambig
 
 **Resolved 27 October 2026 (Andy):** a QCS code goes on a form only if it has been read in QCS itself. Checked codes are listed in scripts/qcs_verified.txt in forward-support-internal, with where each was checked. brand_check.py flags any code not on that list. If a code cannot be checked, leave it off and tell Andy.
 
+### 17. Website grid texture: faint, not a visible pattern
+
+**Source documents differ:** the dark website surfaces (homepage hero, Contact page hero) show a clearly visible line grid. No brand file mentions a grid. The v2 reference covers (Placement Pack, Family Guide, Social Worker Guide) are plain navy with only faint decorative rings.
+
+**Resolved (confirmed by Andy, 12 November 2026):** the grid stays only as a very faint texture that is barely noticeable, in line with the faint rings on the reference covers. It must never read as a visible pattern. Andy recalls an earlier decision to this effect; the original reason was not recorded. Applies to the live site and full-site-build.
+
 ### How these are enforced
 
 Every form is checked with `scripts/brand_check.py` in forward-support-internal before it is shown to anyone or moved into "02 Forms in use". It flags lines lighter than Grey #706F6F or thinner than 0.75pt, colours that are not in brand-tokens.json, orange, bold or typed-bar eyebrows, blue title keywords, em dashes, an orange top strip, a missing logo, a footer without a form code, version and Page X of Y, and any QCS code not yet checked. It cannot judge wording, layout or resident data, so every page is still looked at. A form that fails is not finished.
