@@ -54,6 +54,15 @@
       ],
       "use": "Secondary accent. Keyword highlights in titles, section eyebrows, tagline, positive callouts."
     },
+    "cyanText": {
+      "hex": "#00788C",
+      "rgb": [
+        0,
+        120,
+        140
+      ],
+      "use": "Cyan TEXT on white or Tint backgrounds on the website: eyebrows, title keywords, small labels and links. 5.2:1 on white, 4.8:1 on Tint, so it passes WCAG AA. Bright cyan #00B5CF stays for bars, accents, callout backgrounds and all cyan on dark grounds. Decision 18, 12 November 2026."
+    },
     "grey": {
       "hex": "#706F6F",
       "rgb": [

@@ -29,6 +29,7 @@ If you have not done these three things, you are not allowed to produce a visual
 ## Locked decisions (full detail in brand-tokens.json)
 
 - Colours: only the seven tokens defined in brand-tokens.json. Never hardcode hex values.
+- Cyan text on white or Tint on the website uses cyanText #00788C (decision 18, 12 November 2026), so it passes accessibility contrast. Bright cyan #00B5CF stays for bars, accents and anything on dark grounds.
 - Type scale: 28pt page title, 18pt section heading, 14pt subheading, 10.5pt body, 8pt caption. Helvetica for generated PDFs.
 - Eyebrow: CYAN default with vertical cyan bar accent. Orange only for negatives, warnings, gates.
 - Title keyword accent: CYAN, not blue.
@@ -67,4 +68,5 @@ If you cannot meet the bar above, say so plainly and stop. Do not ship a lesser 
 ## Version history
 
 - v2.1, 23 October 2026: eyebrow rule confirmed as cyan after checking the live v2 PDFs and SOPs. Old April reference PDFs (orange eyebrows) moved to /reference/archive/ and replaced with the live v2 versions. Source of truth links corrected to this repo. Conflict rule added.
+- v2.3, 12 November 2026: cyanText added for cyan text on light website backgrounds (decision 18).
 - v2.2, 23 October 2026: Caveat added as a sparing handwritten accent, from the 'Hi Sarah' QA pack.

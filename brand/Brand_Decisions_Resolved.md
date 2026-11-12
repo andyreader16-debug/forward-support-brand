@@ -118,6 +118,12 @@ The Brand Book v1.0 contains a small number of internal contradictions and ambig
 
 **Resolved (confirmed by Andy, 12 November 2026):** the grid stays only as a very faint texture that is barely noticeable, in line with the faint rings on the reference covers. It must never read as a visible pattern. Andy recalls an earlier decision to this effect; the original reason was not recorded. Applies to the live site and full-site-build.
 
+### 18. Cyan text on light backgrounds: darker cyan for accessibility
+
+**Source:** Claude Code flagged on 12 November 2026 that bright cyan #00B5CF text on white is about 2.5:1 contrast, and 2.3:1 on Tint. The WCAG AA minimum is 4.5:1 for normal text and 3:1 for large text, so cyan eyebrows and title keywords on white sections fail.
+
+**Resolved (Andy, 12 November 2026):** a darker cyan, token cyanText #00788C (5.2:1 on white, 4.8:1 on Tint), for all cyan text on white or Tint on the website: eyebrows, title keywords, small labels. Bright cyan stays for the eyebrow bar, accents, callout backgrounds and everything on dark grounds, where it already passes. Cyan is still the eyebrow and keyword colour; only the shade changes on light backgrounds. Documents and PDFs: the Documents and Brand project decides whether to adopt it at each document's next rebuild.
+
 ### How these are enforced
 
 Every form is checked with `scripts/brand_check.py` in forward-support-internal before it is shown to anyone or moved into "02 Forms in use". It flags lines lighter than Grey #706F6F or thinner than 0.75pt, colours that are not in brand-tokens.json, orange, bold or typed-bar eyebrows, blue title keywords, em dashes, an orange top strip, a missing logo, a footer without a form code, version and Page X of Y, and any QCS code not yet checked. It cannot judge wording, layout or resident data, so every page is still looked at. A form that fails is not finished.
