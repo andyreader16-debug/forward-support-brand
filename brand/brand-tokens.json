@@ -288,8 +288,8 @@
     }
   },
   "forms": {
-    "spec": "Brand_Decisions_Resolved.md decisions 8 to 16 (27 October 2026)",
-    "logo": "blue logo top left on standalone forms; eyebrow and title below it",
+    "spec": "Brand_Decisions_Resolved.md decisions 8 to 16 (27 October 2026) and 19 (14 November 2026)",
+    "logo": "blue logo top left on standalone forms; eyebrow and title below it. No address top right or under the title: the footer carries it (decision 19)",
     "eyebrow": "cyan, uppercase, regular weight (never bold), with a small drawn cyan bar in front, never a typed \"|\". Letter spacing 1.6pt where the tool allows it. Never orange.",
     "titleKeyword": "cyan",
     "tableLines": {
